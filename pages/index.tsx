@@ -1,9 +1,12 @@
 import React from "react";
 import "../style/home/home.css";
 
+import Canvas from "../components/home/Canvas.tsx";
+
 export default function Home() {
 	return (
 		<section className="hero">
+			<Canvas />
 			<section className="hero-content">
 				<div className="hero-logo">
 					<img src="/deno.svg" alt="deno logo" />
