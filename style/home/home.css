@@ -1,0 +1,42 @@
+/*===Hero===*/
+
+.hero {
+	height: 95vh;
+	min-height: 720px;
+	background-color: var(--primary-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+.hero-content h1 {
+	font-size: 4rem;
+}
+
+.hero-content p {
+	letter-spacing: 0.2rem;
+}
+
+.hero-logo {
+	background-color: white;
+	border-radius: 50%;
+	height: 18rem;
+	width: 18rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*===Deno Rain===*/
+
+#deno-rain {
+	background-color: red;
+	position: absolute;
+}
