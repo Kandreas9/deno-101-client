@@ -3,7 +3,8 @@
 .hero {
 	position: relative;
 	height: 100vh;
-	min-height: 720px;
+	width: 100vw;
+	min-height: 667px;
 	background-color: var(--primary-color);
 	display: flex;
 	justify-content: center;
@@ -31,7 +32,7 @@
 }
 
 .hero-content h1 {
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 .hero-content p {
@@ -41,8 +42,8 @@
 .hero-logo {
 	background-color: white;
 	border-radius: 50%;
-	height: 18rem;
-	width: 18rem;
+	height: 15rem;
+	width: 15rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;

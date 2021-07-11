@@ -9,7 +9,7 @@ export default function Home() {
 			<Canvas />
 			<section className="hero-content">
 				<div className="hero-logo">
-					<img src="/deno.svg" alt="deno logo" />
+					<img height={200} src="/deno.svg" alt="deno logo" />
 				</div>
 
 				<h1>Deno 101</h1>

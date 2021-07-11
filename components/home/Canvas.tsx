@@ -79,10 +79,13 @@ export default function Canvas() {
 				droplets.splice(49, 100);
 			}
 
-			if (window.innerHeight > 720) {
+			if (window.innerHeight > 667) {
 				canvasRef.current.height = window.innerHeight;
+			} else {
+				canvasRef.current.height = 667;
 			}
-			canvasRef.current.width = window.innerWidth;
+
+			canvasRef.current.width = window.outerWidth;
 		}
 
 		if (canvasRef.current) {
@@ -94,12 +97,12 @@ export default function Canvas() {
 		}
 
 		if (context) {
-			if (window.innerHeight > 720) {
+			if (window.innerHeight > 667) {
 				canvasRef.current.height = window.innerHeight;
 			} else {
-				canvasRef.current.height = 720;
+				canvasRef.current.height = 667;
 			}
-			canvasRef.current.width = window.innerWidth;
+			canvasRef.current.width = window.outerWidth;
 
 			if (window.innerWidth < 450) {
 				for (let x = 0; x < 50; x++) {
